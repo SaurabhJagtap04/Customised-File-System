@@ -1478,6 +1478,7 @@ int main()
                 if(ret > 0)
                 {
                     write(2,ptr,ret);
+                    printf"\n";
                 }
 
                 continue;               
